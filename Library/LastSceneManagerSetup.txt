@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/LeapMotion_Hololens/Hand.unity
+  isLoaded: 1
+  isActive: 1

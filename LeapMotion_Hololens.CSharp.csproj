@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BC3DB6B-C259-FC3D-D397-F3D02207567E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WSAPlayer:21</UnityBuildTarget>
+    <UnityVersion>5.4.0b22-HTP</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_HOLOLENS_MODULE_API;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_TEXTUREID_MAP;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_EVENT_QUEUE;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;CURL_STATICLIB;UNITY_WSA;ENABLE_DOTNET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;ENABLE_HOLOLENS_MODULE_API;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_TEXTUREID_MAP;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_EVENT_QUEUE;ENABLE_NETWORK;ENABLE_EVENT_QUEUE;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;ENABLE_SUBSTANCE;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYWEBREQUEST;CURL_STATICLIB;UNITY_WSA;ENABLE_DOTNET;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_WSA_10_0;UNITY_WINRT_10_0;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Examples\Scripts\CenterTransformOnCam.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Examples\Scripts\CycleHandPairs.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Scripts\MinimalHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Scripts\PolyFinger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Scripts\PolyHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Scripts\RiggedFinger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\LeapMotionModules\Hands\Scripts\RiggedHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Arm.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Bone.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\CSharpExtensions.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\CircularObjectBuffer.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\ClockCorrelator.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Config.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Controller.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\Detector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\DetectorLogicGate.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\FingerDirectionDetector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\PalmDirectionDetector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\PinchDetector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DetectionUtilities\ProximityDetector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Device.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DeviceList.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DistortionData.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\DistortionDictionary.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Events.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\FailedDevice.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\FailedDeviceList.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Finger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Frame.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\HandFactory.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\HandPool.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\HandProxy.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\HandRepresentation.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\CapsuleHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\DebugHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\FingerModel.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\HandDrop.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\HandEnableDisable.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\HandFader.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\HandModel.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\HandTransitionBehavior.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\IHandModel.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\RiggedHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\RigidFinger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\RigidHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\SkeletalFinger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\SkeletalHand.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Hands\TestHandFactory.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\IController.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Image.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\ImageData.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\ImageFuture.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\InteractionBox.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapC.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapDeviceInfo.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapHandController.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapImageRetriever.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapProvider.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapQuaternion.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapServiceProvider.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapTransform.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapWebProcessor.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\LeapWebSocketController.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Logger.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Matrix.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\MessageSeverity.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\MiniJSON.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\MountedRigPosition.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\PendingImages.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\PooledObject.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\ServiceFrameFactory.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\StructMarshal.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\TimeBracket.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\DisconnectionNotice.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\EnableDepthBuffer.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\ExecutionOrder.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\FitHeightToScreen.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\FrameRateControls.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\KeyEnableBehaviors.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\KeyEnableGameObjects.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\LeapUnityExtensions.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\SceneSettings.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\SmoothedFloat.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\SmoothedQuaternion.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\SmoothedVector3.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\StretchToScreen.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Utils\Utils.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\VR\EyeType.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\VR\LeapVRCameraControl.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\VR\LeapVRTemporalWarping.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\VR\TemporalWarpingStatus.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\VR\VRHeightOffset.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\Vector.cs" />
+    <Compile Include="Assets\LeapMotion_Hololens\Scripts\tagAlong.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\LeapMotion_Hololens\Resources\LeapCG.cginc" />
+    <None Include="Assets\LeapMotion_Hololens\Resources\PassthroughBackground.shader" />
+    <None Include="Assets\LeapMotion_Hololens\Resources\PassthroughForeground.shader" />
+    <None Include="Assets\LeapMotion_Hololens\Resources\ThresholdOverlay.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
